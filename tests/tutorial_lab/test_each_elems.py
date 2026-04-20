@@ -22,5 +22,7 @@ def test_fuse_fire_and_water(lab: Lab):
     result = lab.fuse("fire", "water")
     assert result == "steam"
 
-
+def test_fuse_fire_and_earth(lab: Lab):
+    result = lab.fuse("fire", "earth")
+    assert result == "magma"
 # ..
