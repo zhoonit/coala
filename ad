@@ -1,0 +1,108 @@
+[33mcommit 1055c6d1d4d939584c4c63da51cb914077346377[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Jeonsubb <glvlglvl01@naver.com>
+Date:   Sun May 24 17:38:56 2026 +0900
+
+    discover(magma)
+
+[33mcommit 4265c0d1b2383f2f40903081783254b52050e677[m[33m ([m[1;31mupstream/main[m[33m, [m[1;31mupstream/HEAD[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Jihoon Lee <zhoonit@gmail.com>
+Date:   Sun Apr 19 20:18:56 2026 +0900
+
+    feat: disable black and end of file fixer
+    
+    - 불필요하게 재 커밋을 야기하는 두가지 체커 제거
+
+[33mcommit 0fe900ed1830ecfe690feda3d2a56b79842f8b35[m
+Author: jwpark <woojang812@gmail.com>
+Date:   Fri Apr 10 22:12:03 2026 +0900
+
+    discover(2minute): add pebble element
+    - add sunset element to 2minute by fusing wind + earth
+
+[33mcommit 4072c67763de7e0f404051a0325bfe627f3b1246[m
+Author: 4sz5sz6sz <98520968+4sz5sz6sz@users.noreply.github.com>
+Date:   Fri Apr 10 22:00:04 2026 +0900
+
+    feat: create hershey lab
+
+[33mcommit f000520cf506130deffe9dab0b14c5a005da690e[m
+Author: jh10296 <jh10296@gmail.com>
+Date:   Fri Apr 10 21:51:43 2026 +0900
+
+    delete: 2minute lab await, async
+
+[33mcommit 52f573958d87af86646f3440d3447a948e989fa4[m
+Author: jh10296 <jh10296@gmail.com>
+Date:   Fri Apr 10 21:37:44 2026 +0900
+
+    feat: add 2minute team
+
+[33mcommit d40d8f3b00d753119697ac0e19eeca8840048255[m
+Author: Jihoon Lee <zhoonit@gmail.com>
+Date:   Wed Apr 8 10:58:35 2026 +0900
+
+    docs: add detailed setup instruction at README
+    
+    add guide how to setup for who those never tried git.
+
+[33mcommit a32c2595c402aaf789d0146c96b1d62095f86dce[m
+Author: Jihoon Lee <zhoonit@gmail.com>
+Date:   Sun Apr 5 19:29:29 2026 +0900
+
+    feat: use inhouse recipe instead of infinite craft
+    
+    - infinite craft 가 특정 대역에서 요청이 불가능하여 임의로 합성한 레시피 사용하도록 변경
+
+[33mcommit 9d476d1ce11914f1c1e999312791766776b65a9c[m
+Author: Jihoon Lee <zhoonit@gmail.com>
+Date:   Sun Apr 5 13:28:13 2026 +0900
+
+    refactor: revise lab injection structure in tests
+    
+    - test 에서 랩 주입하는 구조 조금 더 투명하도록 변경
+
+[33mcommit e4119a46c4a4bf24c466a5e0194c465650164c18[m
+Author: Jihoon Lee <zhoonit@gmail.com>
+Date:   Sun Apr 5 12:39:19 2026 +0900
+
+    ci: add test-and-lint github action
+    
+    - pytest 와 lint 체크하는 ci 추가
+    - pre-commit 실행후 수정사항 반영
+
+[33mcommit e65498160716060385500c589489cd36412d41fb[m
+Author: Jihoon Lee <zhoonit@gmail.com>
+Date:   Sun Apr 5 12:15:25 2026 +0900
+
+    feat: add proper close method at test teardown
+    
+    - to close session properly, add test teardown
+
+[33mcommit 8250a82cca853a06d8ce5ee06e3e62065eb59216[m
+Author: Jihoon Lee <zhoonit@gmail.com>
+Date:   Sat Apr 4 22:15:04 2026 +0900
+
+    docs: Add Readme.md
+    
+    - add initial readme
+
+[33mcommit 721a75b81dcf0548873ce58b07d50057dd318781[m
+Author: Jihoon Lee <zhoonit@gmail.com>
+Date:   Sat Apr 4 17:25:04 2026 +0900
+
+    feat: Add CLI to create lab with script.
+    
+    - lab 생성 스크립트 추가
+    - fire cli 추가
+
+[33mcommit fc08527d278c0c674cad4ba0e5ece4d3a370740e[m
+Author: Jihoon Lee <zhoonit@gmail.com>
+Date:   Sat Apr 4 16:40:25 2026 +0900
+
+    feat: Add tutorial lab with test utils.py
+
+[33mcommit 0d00b31a69811cfd3d41dc100d164fdf434313cf[m
+Author: Jihoon Lee <zhoonit@gmail.com>
+Date:   Sat Apr 4 15:01:37 2026 +0900
+
+    feat: initiate coala package structure
