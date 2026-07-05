@@ -23,4 +23,14 @@ def test_fuse_fire_and_water(lab: Lab):
     assert result == "steam"
 
 
+def test_fuse_earth_and_water(lab: Lab):
+    result = lab.fuse("earth", "water")
+    assert result == "clay"
+
+
+def test_fuse_clay_and_fire(lab: Lab):
+    result = lab.fuse("clay", "fire")
+    assert result == "ceramic"
+
+
 # ..
