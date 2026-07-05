@@ -30,4 +30,8 @@ def test_fuse_steam_and_wind(lab: Lab):
 def test_fuse_fire_and_wind(lab: Lab):
     result = lab.fuse("fire", "wind")
     assert result == "spark"
+
+def test_fuse_fire_and_fire(lab: Lab):
+    result = lab.fuse("fire", "fire")
+    assert result == "blaze"
 # ..
